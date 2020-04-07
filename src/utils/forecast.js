@@ -21,7 +21,7 @@ const forecast = (latitude, longitude, callback) => {
 
 			callback(
 				undefined,
-				`${dailySummary} It is currently ${temperature} degrees out. There is a ${precipProbability}% chance of rain`
+				`${dailySummary} It is currently ${temperature} degrees out. There is a ${precipProbability}% chance of rain...`
 			);
 		}
 	});
